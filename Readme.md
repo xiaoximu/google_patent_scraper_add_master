@@ -1,6 +1,11 @@
 # Patent Scraper
 A python package to scrape patents from 'https://patents.google.com/'. Portions of this project are based on [ryanlstevens/google_patent_scraper](https://github.com/ryan_lstevens/google_patent_scraper).
 
+## Request
+
+```shell
+pip install bs4
+```
 
 ## Available Data
 
@@ -63,7 +68,7 @@ The following elements are always returned by the scraper class:
 ## Package Installation
 
 ```git
-git clone https://github.com/xiaoximu/google-patents-scraper.git
+git clone https://github.com/xiaoximu/google_patent_scraper_add_master.git
 ```
 
 ## Main Use Cases
@@ -76,7 +81,7 @@ There are two primary ways to use this package:
 from google_patent_scraper_add import scraper_class
 
 # ~ Initialize scraper class ~ #
-scraper=scraper_class() 
+scraper=scraper_class(proxy_address='http://your.proxy.address:port') 
 
 # ~~ Scrape patents individually ~~ #
 patent_1 = 'US2668287A'
@@ -97,7 +102,7 @@ from google_patent_scraper_add import scraper_class
 import json
 
 # ~ Initialize scraper class ~ #
-scraper=scraper_class()
+scraper=scraper_class(proxy_address='http://your.proxy.address:port')
 
 # ~ Add patents to list ~ #
 scraper.add_patents('US2668287A')
@@ -126,7 +131,7 @@ Scrape a patent and retrieve abstract information
 from google_patent_scraper_add import scraper_class
 
 # ~ Initialize scraper class ~ #
-scraper=scraper_class(return_abstract=True)  #<- TURN ON ABSTRACT TEXT  
+scraper=scraper_class(proxy_address='http://your.proxy.address:port', return_abstract=True)  #<- TURN ON ABSTRACT TEXT  
 
 # ~~ Scrape patents individually ~~ #
 patent_1 = 'US2668287A'
@@ -145,7 +150,7 @@ __Download PDF__
 from google_patent_scraper_add import scraper_class
 
 # Enable auto-download upon initialization and specify the download directory
-scraper = scraper_class(auto_download_pdf=True, download_path="D:/Downloads/PDFs")
+scraper = scraper_class(proxy_address='http://your.proxy.address:port', auto_download_pdf=True, download_path="D:/Downloads/PDFs")
 
 # Add patent and perform scraping
 scraper.add_patents('US2668287A')

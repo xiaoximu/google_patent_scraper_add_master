@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3584af26-37b7-401d-9273-4e8039ee6745" name="Changes" comment="">
+    <list default="true" id="3584af26-37b7-401d-9273-4e8039ee6745" name="Changes" comment="retry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google_patent_scraper_add/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/google_patent_scraper_add/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google_patent_scraper_add/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/google_patent_scraper_add/errors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/google_patent_scraper_add/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/google_patent_scraper_add/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
@@ -27,22 +25,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "xiaoximu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xiaoximu&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/xiaoximu/google_patent_scraper_add_master.git",
-    "accountId": "24782cb3-9f9c-46dd-83e9-ebae07a36286"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xiaoximu/google_patent_scraper_add_master.git&quot;,
+    &quot;accountId&quot;: &quot;24782cb3-9f9c-46dd-83e9-ebae07a36286&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2slFb7sgIJDhNkmhb2azNVYSzah" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -103,6 +104,30 @@
       <option name="presentableId" value="Default" />
       <updated>1739022322724</updated>
     </task>
+    <task id="LOCAL-00001" summary="retry">
+      <option name="closed" value="true" />
+      <created>1739026838161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739026838161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="retry" />
+    <option name="LAST_COMMIT_MESSAGE" value="retry" />
   </component>
 </project>
