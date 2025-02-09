@@ -68,7 +68,7 @@ The following elements are always returned by the scraper class:
 ## Package Installation
 
 ```git
-git clone https://github.com/xiaoximu/google_patent_scraper_add_master.git
+pip install git+https://github.com/xiaoximu/google_patent_scraper_add_master.git
 ```
 
 ## Main Use Cases
